@@ -1,0 +1,2 @@
+import"./card.1606fb40.js";import"./content.31d6e008.js";const l="<div style=display:flex;flex-wrap:wrap;gap:.5rem>Hello world home</div>",n=`:host{display:inline-block;color:var(--text-color)}
+`,o=document.createElement("template");o.innerHTML=`<style>${n}</style>${l}`;const t="home-page";class s extends HTMLElement{constructor(){var e;super(),this.attachShadow({mode:"open"}),(e=this.shadowRoot)==null||e.appendChild(o.content.cloneNode(!0))}}customElements.get(t)===void 0&&customElements.define(t,s);
